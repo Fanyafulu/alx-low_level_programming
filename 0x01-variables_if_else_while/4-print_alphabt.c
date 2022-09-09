@@ -1,20 +1,20 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
- * print_most_numbers - functions that prints the numbers, from 0 to 9.
- *
- * Return: nothing.
- */
-
-void print_most_numbers(void)
+* main - Prints the alphabet in lowercase, except for q and e.
+*
+* Return: Always 0.
+*/
+int main(void)
 {
-	int n = 0;
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+if (letter != 'e' && letter != 'q')					
+putchar(letter);
+}
 
-	while (n < 10)
-	{
-		if (n !=2 && n !=4)
-			_putchar(n + '0');
-		n +=1;
-	}
-	_putchar('\n');
+putchar('\n');
+
+return (0);
 }
