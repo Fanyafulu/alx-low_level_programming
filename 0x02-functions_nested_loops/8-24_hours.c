@@ -5,13 +5,13 @@
 
 #include "main.h"
 
-/*
-* jack_bauer 
+/**
+* jack_bauer
 * Description: prints every minute of the day
 * starting from 00:00 to 23:59.
 * Return: void
 */
-void jack_bauer(void)
+void jack_bauer()
 {
 int hour, minute;
 for (hour = 0; hour <= 23; hour++)
