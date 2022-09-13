@@ -10,7 +10,7 @@
 * Jack Bauer, starting from 00:00 to 23:59.
 */
 
-void jack_bauer(void)
+void jack_bauer(void);
 {
 int hour, minute;
 for (hour = 0; hour <= 23; hour++)
