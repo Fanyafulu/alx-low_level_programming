@@ -1,19 +1,18 @@
 #include "main.h"
 
 /**
-* print_line - check for a digit
-* @n : number of _ to be printed
-* Return: void
+* print_line - Draws a straight line using the character _.
+* @n: The number of _ characters to be printed
 */
 
 void print_line(int n)
 {
-int i = 0;
-while (i < n && n > 0)
+int len;
+if (n > 0)
 {
+for (len = 0; len < n; len++)
 _putchar('_');
-i++;
 }
 _putchar('\n');
-#include "main.h"
+}
 
