@@ -6,7 +6,7 @@
 * @s2: pointer to string params* Return: 0
 */
 
-int strlen_no_wilds(char *str)
+int wildcmp(char *s1, char *s2)
 {
 if (*s1 == '\0')
 {
