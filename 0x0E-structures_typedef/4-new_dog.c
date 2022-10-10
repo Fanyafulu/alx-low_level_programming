@@ -1,7 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 /**
 * new_dog - new dog
 * @name: name's dog
@@ -9,6 +8,7 @@
 * @owner: owner's dog
 * Return: newdog
 */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 int i = 0, j = 0, k;
