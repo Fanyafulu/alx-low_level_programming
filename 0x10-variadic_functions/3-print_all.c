@@ -4,6 +4,9 @@
 * print_all - prints all
 * @format: a string of characters representing the argument types.
 * @...: a variable number of arguments to be printed.
+* Description: Any argument not of type char, int, float,
+* or char * is ignored.
+* If a string argument is NULL, (nil) is printed instead.
 */
 
 void print_all(const char * const format, ...)
@@ -45,7 +48,7 @@ break;
 }
 printf("%s", str);
 break;
-} 
+}
 i++;
 }
 printf("\n"), va_end(valist);
