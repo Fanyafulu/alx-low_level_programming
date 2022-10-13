@@ -2,7 +2,8 @@
 
 /**
 * print_all - prints all
-* @format: param
+* @format: a string of characters representing the argument types.
+* @...: a variable number of arguments to be printed.
 */
 
 void print_all(const char * const format, ...)
