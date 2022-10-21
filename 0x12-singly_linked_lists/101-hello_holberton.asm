@@ -1,4 +1,6 @@
-Section .text
+extern printf
+
+Section .tex
 
 global main
 
