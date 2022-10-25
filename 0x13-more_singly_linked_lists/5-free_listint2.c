@@ -6,13 +6,15 @@
 * Return: void.
 */
 
-void free_listin2(listin_t **head)
+void free_listint2(listint_t **head)
 {
-listin_t *temp;
+listint_t *temp;
 
-if (head != NULL)
-{
+if (head == NULL)
+return;
+
 while (*head)
+{
 temp = *head;
 *head = (*head)->next;
 free(temp);
