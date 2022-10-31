@@ -9,6 +9,7 @@
 * Return: If the function fails or filename is NULL - 0.
 * O/w - the actual number of bytes the function can read and print.
 */
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 ssize_t o, r, w;
@@ -31,6 +32,5 @@ return (0);
 }
 free(buffer);
 close(o);
-	
 return (w);
 }
